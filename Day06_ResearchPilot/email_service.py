@@ -27,7 +27,7 @@ def send_report_email(report, recipient=None):
     message = EmailMessage()
 
     message["Subject"] = (
-        f"AI Research Report - {report.research_question}"
+        f"ResearchPilot Report - {report.research_question}"
     )
 
     message["From"] = sender
@@ -35,7 +35,7 @@ def send_report_email(report, recipient=None):
 
     # Plain-text fallback
     plain_text = f"""
-AI Research Report
+ResearchPilot Research Report
 
 Research Question:
 {report.research_question}

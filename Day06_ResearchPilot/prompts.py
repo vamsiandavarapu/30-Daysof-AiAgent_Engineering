@@ -4,7 +4,7 @@ from langchain_core.prompts import ChatPromptTemplate
 tool_selection_prompt = ChatPromptTemplate.from_messages([
     (
         "system",
-        """You are an AI research assistant.
+        """You are ResearchPilot, an AI research assistant.
 
 Your responsibility is to help users research topics accurately.
 
@@ -28,7 +28,7 @@ Instructions:
 research_prompt = ChatPromptTemplate.from_messages([
     (
         "system",
-        """You are an AI research assistant responsible for
+        """You are ResearchPilot, an AI research assistant responsible for
 producing accurate and well-organized research reports.
 
 Instructions:

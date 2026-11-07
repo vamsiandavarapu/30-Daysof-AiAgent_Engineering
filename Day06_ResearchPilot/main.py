@@ -148,7 +148,7 @@ def run_assistant(question):
         # No search was needed; use the direct LLM response
         answer = response.content
 
-        print("\n========== ASSISTANT ==========")
+        print("\n========== RESEARCHPILOT ==========")
         print(answer)
 
     # 5. Update conversation memory
@@ -159,7 +159,7 @@ def run_assistant(question):
 def main():
 
     print("=" * 45)
-    print("       AI RESEARCH ASSISTANT")
+    print("          RESEARCHPILOT")
     print("=" * 45)
 
     print("\nAsk a research question.")
