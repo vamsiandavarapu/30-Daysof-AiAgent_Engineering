@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+TripMate/generated_pdfs/*
+!TripMate/generated_pdfs/.gitkeep
+credentials.json
+token.json
